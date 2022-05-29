@@ -1,0 +1,15 @@
+.auth-block {
+  display: flex;
+  padding-left: 10px;
+  margin: 15px auto;
+  opacity: 0;
+  transition: 0.3s;
+  img {
+    width: 34px;
+    height: 34px;
+  }
+  h3 {
+    margin-left: 10px;
+    color: white;
+  }
+}

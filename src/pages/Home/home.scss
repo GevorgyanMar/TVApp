@@ -1,0 +1,26 @@
+.home-section {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+
+.home-body {
+  margin-left: 200px;
+}
+
+.home-btn-block {
+  width: 100%;
+  margin-top: 15px;
+  display: flex;
+  .btn-wrapper {
+    &:last-child {
+      margin-left: 15px;
+      button {
+        background-color: #1921c5;
+        p {
+          color: white;
+        }
+      }
+    }
+  }
+}
